@@ -49,7 +49,7 @@ L'abstraction permet de nous simplifier les choses parce que nous pouvons ignore
 
 #### Exemples de ce que vous pourriez observer :
 
-Lorsque vous utilisez différentes représentations pour le binaire, telles que l'activation de la lampe torche, quels sont les étudiants qui voient vite que c'est l'équivalent de l'activité où ils ont utilisé des 0 et des 1 ? Ils vont probablement se sentir à l'aise pour travailler avec cette nouvelle représentation rapidement, tandis que d'autres élèves peuvent être très dérangés par ce changement. Cherchez les élèves qui décident de créer leurs propres représentations de nombres binaires.
+Lorsque vous utilisez différentes représentations pour le binaire, telles que l'activation de la lampe torche, quels sont les élèves qui voient vite que c'est l'équivalent de l'activité où ils ont utilisé des 0 et des 1 ? Ils vont probablement se sentir rapidement à l'aise pour travailler avec cette nouvelle représentation, tandis que d'autres élèves peuvent être très dérangés par ce changement. Cherchez les élèves qui décident de créer leurs propres représentations de nombres binaires.
 
 {panel end}
 
@@ -57,7 +57,7 @@ Lorsque vous utilisez différentes représentations pour le binaire, telles que 
 
 # Décomposition
 
-Le principal exemple de décomposition dans cette activité est de comprendre qu'en informatique nous devons décomposer toute information en petits morceaux pour que les ordinateurs puissent stocker et envoyer ces données sous forme de bits et d'octets. Tout ce que nous stockons à l'intérieur d'un ordinateur et voyons apparaitre sur l'écran doit avoir été, d'une façon ou d'une autre, décomposé en chiffres binaires.
+Le principal exemple de décomposition dans cette activité est de comprendre qu'en informatique nous devons décomposer toute information en petits morceaux pour que les ordinateurs puissent stocker et envoyer ces données sous forme de bits et d'octets. Tout ce que nous stockons à l'intérieur d'un ordinateur et voyons apparaître sur l'écran doit avoir été, d'une façon ou d'une autre, décomposé en chiffres binaires.
 
 Dans cette leçon, les élèves ont effectué plusieurs étapes de décomposition en codant un message et en le décomposant en étapes simples. Pour écrire un message en binaire, nous devons d'abord regarder le message une lettre à la fois et les convertir une par une, en nombres décimaux, et ensuite convertir chacun de ces nombres, un par un, en nombres binaires. Les élèves effectuent ces étapes dans l'ordre inverse pour convertir de nouveau le message en texte.
 
@@ -69,13 +69,13 @@ Les élèves peuvent-ils expliquer pourquoi il est important que nous puissions 
 
 {panel type="ct-pattern"}
 
-# Généralisation et modèles
+# Généralisation et motifs
 
 Reconnaître des motifs dans le fonctionnement du système de numération binaire nous aide à mieux comprendre les concepts impliqués et nous aide à généraliser ces concepts et ces motifs afin de les appliquer à d'autres problèmes.
 
 #### Exemples de ce que vous pourriez observer :
 
-Demandez aux élèves de décoder le message binaire d'un autre élève, par la conversion des nombres binaires en nombres décimaux, et ensuite en texte pour afficher le message. Demandez-leur ce qu'ils feraient s'ils voulaient inclure d'autres caractères dans leur message : que faire si nous voulions des lettres majuscules et minuscules ? Que faire si nous voulons utiliser le point d'exclamation ou d'interrogation ? Observer quels élèves trouvent qu'on peut généraliser la méthode qu'ils utilisent déjà et faire correspondre à d'autres caractères de plus grands nombres décimaux, par exemple, a-z peut être 1-26, et A-Z peuvent être 27-52. Si l'on peut représenter 32 caractères différents en binaire avec 5 bits pour chaque caractère, combien en aurions-nous besoin pour 64 caractères ? Quels élèves peuvent voir le motif du binaire et du doublement dans cette situation, et voir que nous avons simplement besoin d'utiliser 1 bit de plus pour ce faire?
+Demandez aux élèves de décoder le message binaire d'un autre élève, par la conversion des nombres binaires en nombres décimaux, et ensuite en texte pour afficher le message. Demandez-leur ce qu'ils feraient s'ils voulaient inclure d'autres caractères dans leur message : que faire si nous voulions des lettres majuscules et minuscules ? Que faire si nous voulons utiliser le point d'exclamation ou d'interrogation ? Cherchez les élèves qui trouvent qu'on peut généraliser la méthode qu'ils utilisent déjà et faire correspondre à d'autres caractères de plus grands nombres décimaux, par exemple, a-z peut être 1-26, et A-Z peuvent être 27-52. Si l'on peut représenter 32 caractères différents en binaire avec 5 bits pour chaque caractère, combien en aurions-nous besoin pour 64 caractères ? Quels élèves peuvent voir le motif du binaire et du doublement dans cette situation, et voir que nous avons simplement besoin d'utiliser 1 bit de plus pour ce faire?
 
 {panel end}
 
@@ -83,7 +83,7 @@ Demandez aux élèves de décoder le message binaire d'un autre élève, par la 
 
 # Logique
 
-La pensée logique implique de prendre des décisions fondées sur les connaissances que vous avez, et ces décisions doivent être raisonnable et bien pensées. Si vous mémorisez que la lettre H est représentée par 01010 en binaire, ce n'est pas aussi utile que d'apprendre à représenter n'importe quel caractère à l'aide de la procédure décrite dans cette activité. Si vous pouvez comprendre la logique des étapes que vous suivez pour convertir une lettre en un nombre binaire, et comment vous pouvez convertir dans l'autre sens, alors vous serez en mesure de représenter n'importe quel caractère binaire, et plus important encore, vous comprendrez le processus, puisque que vous le ferez certainement faire à un ordinateur plutôt que de le faire vous-même à la main. Ceci est particulièrement vrai si vous voulez représenter un grand nombre de caractères. Que faire si nous voulions représenter chaque caractère chinois ? Il en existe plus de 50 000, donc essayer de les mémoriser tous pourrait prendre un certain temps ! Lorsque nous choisissons d'utiliser les nombres décimaux pour chacune des lettres, nous n'avons pas à choisir de 1 à 26, on aurait pu décider de commencer plutôt à 17 et aller de 17 à 42, ou bien nous pourrions avoir choisi des nombres complètement au hasard ! Que se passerait-il si nous décidions que A = 82, B = 5, C = 42, ... Serait-ce une décision logique à prendre ? 1 à 26 c'est beaucoup plus logique, parce que c'est beaucoup plus facile à décrire et à mémoriser.
+La pensée logique implique de prendre des décisions fondées sur les connaissances que vous avez, et ces décisions doivent être raisonnables et bien pensées. Si vous mémorisez que la lettre H est représentée par 01010 en binaire, ce n'est pas aussi utile que d'apprendre à représenter n'importe quel caractère à l'aide de la procédure décrite dans cette activité. Si vous pouvez comprendre la logique des étapes que vous suivez pour convertir une lettre en un nombre binaire, et comment vous pouvez convertir dans l'autre sens, alors vous serez en mesure de représenter n'importe quel caractère binaire, et plus important encore, vous comprendrez le processus, puisque que vous le ferez certainement faire à un ordinateur plutôt que de le faire vous-même à la main. Ceci est particulièrement vrai si vous voulez représenter un grand nombre de caractères. Que faire si nous voulions représenter chaque caractère chinois ? Il en existe plus de 50 000, donc essayer de les mémoriser tous pourrait prendre un certain temps ! Lorsque nous choisissons d'utiliser les nombres décimaux pour chacune des lettres, nous n'avons pas à choisir de 1 à 26, on aurait pu décider de commencer plutôt à 17 et aller de 17 à 42, ou bien nous pourrions avoir choisi des nombres complètement au hasard ! Que se passerait-il si nous décidions que A = 82, B = 5, C = 42,... Serait-ce une décision logique à prendre ? 1 à 26 c'est beaucoup plus logique, parce que c'est beaucoup plus facile à décrire et à mémoriser.
 
 #### Exemples de ce que vous pourriez observer :
 
