@@ -160,7 +160,7 @@ body {
   padding-right: 20px !important;
 
   .results-table {
-    border: 1px solid #1b7bffff;
+    border: 1px solid gray;
     border-radius: 15px;
     background-color: white;
     max-height: 50%;
@@ -177,7 +177,7 @@ body {
     flex-shrink: 1; 
     max-height: 50%; 
     background-color: white; 
-    border: 1px solid #4ab750; 
+    border: 1px solid gray; 
     border-radius: 15px;
     min-height: 45px;
 
@@ -245,7 +245,7 @@ body {
       }
 
       #blockly_editor_run_program_button:hover {
-        background-color: #4cbf56;
+        background-color: #43b14c;
         border: 2px solid #4ab750;
       }
 
@@ -294,7 +294,7 @@ body {
   }
 
   .console-number {
-    color: #83c700;
+    color: #1b7bffff;
   }
 }
 
