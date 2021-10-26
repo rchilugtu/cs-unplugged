@@ -68,7 +68,7 @@ services:
             restart_policy:
                 condition: none
         healthcheck:
-          disable: true
+            disable: true
         networks:
             - backend
 
